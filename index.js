@@ -3,3 +3,13 @@ const show = (id, content) => {
     container.appendChild(document.createTextNode(content));
     container.appendChild(document.createElement("br"));
 };
+
+document.getElementById("submit").addEventListener("click", async () => {
+    try {
+        //noir code
+    } catch {
+        show("logs", "Sorry");
+    }
+});
+
+
